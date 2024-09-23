@@ -97,7 +97,7 @@
                         </div>
                         <div class="col-sm-12 col-md-6 d-none d-md-block p-0 m-0 d-flex align-items-center">
                             <div class="col-sm-12 d-flex justify-content-center justify-content-md-end">
-                                <img class="imgHomeCapital animate__animated animate__backInRight animate__delay-0s animate__fast" src="./public/img/imgPortadas/LXG-IMP-2.jpg" alt="Imagen 1">
+                                <img width="80%" class="animate__animated animate__backInRight animate__delay-0s animate__fast" src="./public/img/imgPortadas/LXG-IMP-2.jpg" alt="Imagen 1">
                             </div>
                         </div>
                     </div>
@@ -266,11 +266,19 @@
                                     </div>
                                     <!-- Imagen 2 -->
                                     <div class="carousel-item">
-                                        <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/LXG-IMP-6.jpg" alt="Imagen 2">
+                                        <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/IMPACT_LXG ARF-02.png" alt="Imagen 2">
                                     </div>
                                     <!-- Imagen 3 -->
                                     <div class="carousel-item">
-                                        <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/LXG-IMP-6.jpg" alt="Imagen 3">
+                                        <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/IMPACT_LXG ARF-03.png" alt="Imagen 3">
+                                    </div>
+                                    <!-- Imagen 4 -->
+                                    <div class="carousel-item">
+                                        <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/IMPACT_LXG ARF-04.png" alt="Imagen 4">
+                                    </div>
+                                    <!-- Imagen 5 -->
+                                    <div class="carousel-item">
+                                        <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/IMPACT_LXG ARF-05.png" alt="Imagen 5">
                                     </div>
                                 </div>
                             </div>
@@ -292,10 +300,10 @@
                             <!-- Botones de control del carrusel -->
                             <div class="col-sm-12 d-flex justify-content-center justify-content-md-start align-items-center mt-5">
                                 <button class="btn_carousel" data-bs-target="#carouselExampleUnique" data-bs-slide="prev">
-                                    <img class="iconCarousel me-0 m-1" src="./public/img/Buttons/btn_prev.png" alt="prev">
+                                    <img class="iconCarousel2 me-0 m-1" src="./public/img/Buttons/btn_prev.png" alt="prev">
                                 </button>
                                 <button class="btn_carousel" data-bs-target="#carouselExampleUnique" data-bs-slide="next">
-                                    <img class="iconCarousel m-1" src="./public/img/Buttons/btn_next.png" alt="next">
+                                    <img class="iconCarousel2 m-1" src="./public/img/Buttons/btn_next.png" alt="next">
                                 </button>
                             </div>
                         </div>
@@ -321,11 +329,11 @@
                                 </div>
                                 <!-- Imagen 2 -->
                                 <div class="carousel-item">
-                                    <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/LXG-IMP-7.jpg" alt="Imagen 2">
+                                    <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/IMPACT_LXG TELETON-06.png" alt="Imagen 2">
                                 </div>
                                 <!-- Imagen 3 -->
                                 <div class="carousel-item">
-                                    <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/LXG-IMP-7.jpg" alt="Imagen 3">
+                                    <img data-aos="fade-left" width="100%" class="imageSection p-md-5 pe-md-0 pb-md-0 pt-md-0" src="./public/img/imgPortadas/IMPACT_LXG TELETON-07.png" alt="Imagen 3">
                                 </div>
                             </div>
                         </div>
@@ -365,10 +373,10 @@
                         <!-- Botones del carousel al lado del texto -->
                         <div class="col-sm-12 d-flex justify-content-center justify-content-md-start align-items-center mt-3">
                             <button class="btn_carousel" data-bs-target="#carouselExample" data-bs-slide="prev">
-                                <img class="iconCarousel" src="./public/img/Buttons/btn_prev.png" alt="prev">
+                                <img class="iconCarousel2" src="./public/img/Buttons/btn_prev.png" alt="prev">
                             </button>
                             <button class="btn_carousel" data-bs-target="#carouselExample" data-bs-slide="next">
-                                <img class="iconCarousel" src="./public/img/Buttons/btn_next.png" alt="next">
+                                <img class="iconCarousel2" src="./public/img/Buttons/btn_next.png" alt="next">
                             </button>
                         </div>
                     </div>

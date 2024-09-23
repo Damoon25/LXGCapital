@@ -257,26 +257,13 @@
                                             $cardColorClass = $index % 2 == 0 ? 'bg-custom1' : 'bg-custom2';
                                     ?>
                                             <div class="item">
-                                                <div class="card <?= $cardColorClass ?> border-0 rounded-0 mx-auto">
-                                                    <!-- Contenido de la tarjeta -->
+                                                <div class="card <?= $cardColorClass ?> border-0">
                                                     <img src="./public/img/cards/<?= $novedad['imagen'] ?>" class="card-img-top" alt="Imagen de novedad">
                                                     <div class="card-body p-0">
                                                         <!-- Contenido del cuerpo de la tarjeta -->
-                                                        <?php
-                                                        $meses = [
-                                                            'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
-                                                            'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
-                                                        ];
-
-                                                        $fecha = new DateTime($novedad['fecha']);
-                                                        $mes = $meses[$fecha->format('n') - 1]; // Restamos 1 porque los meses están indexados desde 1
-                                                        $año = $fecha->format('Y');
-
-                                                        $parsedDate = $mes . ' ' . $año;
-                                                        ?>
                                                         <p class="card-text-date fw-bolder"><?= $parsedDate ?></p>
-                                                        <h5 class="card-title"><?php echo substr($novedad['titulo'], 0, 50) . '...' ?></h5>
-                                                        <p class="card-text fw-lighter"><?php echo substr($novedad['descripcion'], 0, 100) . '...' ?></p>
+                                                        <h5 class="card-title"><?php echo substr($novedad['titulo'], 0, 30) . '...' ?></h5>
+                                                        <p class="card-text fw-lighter"><?php echo substr($novedad['descripcion'], 0, 75) . '...' ?></p>
                                                         <div class="d-flex justify-content-end">
                                                             <a href="verNews.php?id=<?= $novedad['id'] ?>" class="stretched-link">
                                                                 <img src="./public/img/Buttons/mas.svg" alt="Ver Más">
@@ -298,14 +285,14 @@
                 </div>
             </div>
         </div>
-        <div class="portadaCulture ">
+        <div class=" portadaCulture">
             <div class="row m-0 p-0">
                 <div class="col-sm-12">
                     <div class="container">
-                        <div class="col-sm-6 col-md-6 text-center text-md-start justify-content-md-start">
-                            <p data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="textPrincipalHome text-decoration-underline">
+                        <div class="col-sm-6 col-md-6 justify-content-md-start">
+                            <p data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="textPrincipalHome text-center text-md-start text-decoration-underline">
                                 Go forth <br>
-                                and set the world
+                                and set the world <br>
                                 on fire
                             </p>
                             <p class="textWhite">

@@ -49,12 +49,12 @@
                                         <img class="icon" src="./public/img/icons/isolationMode2.svg" alt="Isolation Mode">
                                     </div>
                                 </div>
-                                <div class="col-sm-12">
-                                    <div class="col-sm-12 col-md-6 d-md-flex justify-content-end text-end">
-                                        <a href=""><img class="icon2" src="./public/img/icons/linkedin.svg" alt="Linkedin"></a>
-                                        <a href=""><img class="icon2" src="./public/img/icons/ubicacion.svg" alt="Ubicación"></a>
-                                    </div>
-                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 d-flex justify-content-end icon-container">
+                            <div class="col-sm-12 col-md-6 d-md-flex justify-content-end text-end">
+                                <a href=""><img class="icon2" src="./public/img/icons/linkedin.svg" alt="Linkedin"></a>
+                                <a href=""><img class="icon2" src="./public/img/icons/ubicacion.svg" alt="Ubicación"></a>
                             </div>
                         </div>
                     </div>
@@ -85,12 +85,12 @@
                                         <img class="icon" src="./public/img/icons/isolationMode2.svg" alt="Isolation Mode">
                                     </div>
                                 </div>
-                                <div class="col-sm-12">
-                                    <div class="col-sm-12 col-md-6 d-md-flex justify-content-end text-end">
-                                        <a href=""><img class="icon2" src="./public/img/icons/linkedin.svg" alt="Linkedin"></a>
-                                        <a href=""><img class="icon2" src="./public/img/icons/ubicacion.svg" alt="Ubicación"></a>
-                                    </div>
-                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 d-flex justify-content-end icon-container">
+                            <div class="col-sm-12 col-md-6 d-md-flex justify-content-end text-end">
+                                <a href=""><img class="icon2" src="./public/img/icons/linkedin.svg" alt="Linkedin"></a>
+                                <a href=""><img class="icon2" src="./public/img/icons/ubicacion.svg" alt="Ubicación"></a>
                             </div>
                         </div>
                     </div>
@@ -124,12 +124,12 @@
                                         <img class="icon" src="./public/img/icons/isolationMode2.svg" alt="Isolation Mode">
                                     </div>
                                 </div>
-                                <div class="col-sm-12">
-                                    <div class="col-sm-12 col-md-6 d-md-flex justify-content-end text-end">
-                                        <a href=""><img class="icon2" src="./public/img/icons/linkedin.svg" alt="Linkedin"></a>
-                                        <a href=""><img class="icon2" src="./public/img/icons/ubicacion.svg" alt="Ubicación"></a>
-                                    </div>
-                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 d-flex justify-content-end icon-container">
+                            <div class="col-sm-12 col-md-6 d-md-flex justify-content-end text-end">
+                                <a href=""><img class="icon2" src="./public/img/icons/linkedin.svg" alt="Linkedin"></a>
+                                <a href=""><img class="icon2" src="./public/img/icons/ubicacion.svg" alt="Ubicación"></a>
                             </div>
                         </div>
                     </div>
@@ -148,12 +148,12 @@
                                         <a href="../news.php"><img src="./public/img/Buttons/inTheNews.png"></a>
                                     </div>
                                 </div>
-                                <div class="col-sm-12">
-                                    <div class="col-sm-12 col-md-6 d-md-flex justify-content-end text-end">
-                                        <a href=""><img class="icon2" src="./public/img/icons/linkedin.svg" alt="Linkedin"></a>
-                                        <a href=""><img class="icon2" src="./public/img/icons/ubicacion.svg" alt="Ubicación"></a>
-                                    </div>
-                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 d-flex justify-content-end icon-container">
+                            <div class="col-sm-12 col-md-6 d-md-flex justify-content-end text-end">
+                                <a href=""><img class="icon2" src="./public/img/icons/linkedin.svg" alt="Linkedin"></a>
+                                <a href=""><img class="icon2" src="./public/img/icons/ubicacion.svg" alt="Ubicación"></a>
                             </div>
                         </div>
                     </div>

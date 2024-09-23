@@ -10,7 +10,8 @@
     --hover-color: #1c9bd7;
     --title-color: #231F20;
     --btn-color: #67AEC6;
-    --font-body: font-family: 'Space Mono', monospace;
+    --font-body:'Space Mono', monospace;
+    --font-title:'Space Mono', monospace;
     --font1: "Nunito Sans", sans-serif;
     --fondo1: #6EC1E4;
     --section2: #F7F7F7;
@@ -278,7 +279,6 @@ ul {
 
 body {
     background-color: #323232;
-    font-family: 'Space Mono', monospace !important;
 }
 
 
@@ -327,7 +327,7 @@ h1 {
 }
 
 a {
-    font-family: var(--font-body) !important;
+    font-family: var(--font-title) !important;
     color: var(--text) !important;
     text-decoration: none !important;
 }
@@ -673,7 +673,7 @@ a:hover {
 }
 
 .iconOffice {
-    width: 40% !important;
+    width: 20% !important;
     padding: 15px !important;
     padding-top: 0px !important;
     padding-bottom: 10px !important;
@@ -704,6 +704,10 @@ a:hover {
 
 .iconCarousel {
     width: 12% !important;
+}
+
+.iconCarousel2 {
+    width: 60% !important;
 }
 
 .iconFooter {
@@ -865,7 +869,7 @@ a:hover {
 .textPrincipalHome{
     color: var(--link) !important;
     text-align: center !important;
-    font-family: "Nunito Sans" !important;
+    font-family: 'Space Mono', monospace !important;
     font-size: 21px !important;
     font-style: normal !important;
     font-weight: 600 !important;
@@ -906,6 +910,30 @@ a:hover {
     position: relative;
 }
 
+.divCulture {
+    padding-top: 15% !important;
+}
+
+.divBusiness {
+    padding-top: 7.5% !important;
+}
+
+.divPeople {
+    padding-top: 15% !important;
+}
+
+.divNews {
+    padding-top: 15% !important;
+}
+
+.icon-container {
+    position: absolute;
+    bottom: 10px; /* Ajusta según el espacio deseado */
+    right: 10px; /* Ajusta según el espacio deseado */
+    display: flex;
+    gap: 10px; /* Espacio entre los iconos */
+}
+
 .carousel-section {
     display: none;
     transition: opacity 0.5s ease-in-out; /* Transición de opacidad */
@@ -924,6 +952,8 @@ a:hover {
 
 .ourNumbers{
     background-color: var(--color3) !important;
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
 }
 
 .portadaWeAre {
@@ -1078,6 +1108,10 @@ a:hover {
     padding-bottom: 100px !important;
 }
 
+.titleOurFirm {
+    color: var(--link) !important;
+}
+
 .portadaOurFirm {
     background-image: url('../img/imgPortadas/LXG-Hero-1.jpg');
     background-position: center center;
@@ -1208,6 +1242,15 @@ a:hover {
     background-size: cover;
 }
 
+.portadaCulture{
+    background-image: url('../img/imgPortadas/LXG-Home-3.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 7% !important;
+    padding-bottom: 7% !important;
+}
+
 .portadaCapital {
     background-image: url('../img/imgPortadas/capital1T.png');
     background-position: left center;
@@ -1282,6 +1325,13 @@ a:hover {
     padding-bottom: 20% !important;
 }
 
+.portadaNews2{
+    background-image: url('../img/imgPortadas/LXG-Hero-4.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* SECTION NEWS */
 
 
@@ -1332,11 +1382,31 @@ a:hover {
 }
 
 .card {
+    width: 300px !important; /* Ajusta según el tamaño deseado */
+    height: 450px !important; /* Ajusta según el tamaño deseado */
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important; /* Asegura que el contenido se distribuya */
+    padding: 15px !important;
+    position: relative !important;
+}
+
+/* Tamaño consistente para las imágenes */
+.card-img-top {
     width: 100% !important;
-    margin-left: 0px !important;
-    margin-top: 5% !important;
-    border: none !important;
-    background-color: transparent !important;
+    height: 200px !important; /* Ajusta según el tamaño deseado */
+    object-fit: cover !important; /* Asegura que la imagen cubra el área sin deformarse */
+}
+
+.card .stretched-link {
+    position: absolute !important;
+    bottom: 10px !important;
+    left: 10px !important;
+    z-index: 1 !important; /* Asegura que el ícono esté por encima de otros elementos */
+}
+
+.owl-carousel .item {
+    margin-right: 10px !important; /* Ajusta el valor según el espacio deseado */
 }
 
 .card-body {
@@ -1394,19 +1464,10 @@ a:hover {
     height: auto;
 }
 
-.iconCarousel {
-    width: 60% !important; /* Ajusta el tamaño de los íconos */
-    height: 60% !important;
-}
-
 .btn_carousel {
     background-color: transparent;
     border: none;
     cursor: pointer;
-}
-
-.iconCarousel {
-    width: 70% !important;
 }
 
 #btnPrev,
@@ -1661,7 +1722,7 @@ a:hover {
     }
 
     .iconFooter {
-        width: 30% !important;
+        width: 20% !important;
         padding: 0px !important;
     }
 
@@ -1714,7 +1775,11 @@ a:hover {
     }
 
     .imgHomeCapital {
-        width: 75% !important;
+        width: 55% !important;
+    }
+
+    .imgHomeOffice {
+        width: 55% !important;
     }
 
     .imgCapital1{
@@ -1723,10 +1788,6 @@ a:hover {
     
     .imgOffice2{
         width: 80% !important;
-    }
-
-    .imgHomeOffice {
-        width: 65% !important;
     }
 
     .subtitle {

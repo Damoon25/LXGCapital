@@ -417,7 +417,7 @@
             <div class="container">
                 <div class="col-sm-12 p-0 m-0">
                     <div class="d-flex justify-content-center justify-content-md-start">
-                        <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="titleOurFirm">
+                        <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom" style="color: var(--link) !important;">
                             Our Businesses
                         </h1>
                     </div>
